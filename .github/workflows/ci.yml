@@ -286,7 +286,7 @@ jobs:
               shell: bash
 
             - name: Run Cypress E2E tests
-              uses: cypress-io/github-action@v7.4.6
+              uses: cypress-io/github-action@v7
               with:
                   install: false
                   start: npm start
